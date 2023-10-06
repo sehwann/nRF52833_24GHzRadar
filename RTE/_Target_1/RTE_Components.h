@@ -3,7 +3,7 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'nRF52833_24GHz' 
+ * Project: 'nRF52833_keil' 
  * Target:  'Target 1' 
  */
 

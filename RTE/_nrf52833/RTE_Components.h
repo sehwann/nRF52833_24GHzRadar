@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'nRF52833_24GHz' 
- * Target:  'nrf52833' 
+ * Project: 'nRF52833_keil' 
+ * Target:  'nRF52833' 
  */
 
 #ifndef RTE_COMPONENTS_H
