@@ -15,38 +15,31 @@ Assembler:       Armasm.exe V5.06 update 7 (build 960)
 Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
 Library Manager: ArmAr.exe V5.06 update 7 (build 960)
 Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
-CPU DLL:         SARMCM3.DLL V5.36.0.0
-Dialog DLL:      DCM.DLL V1.17.3.0
+CPU DLL:         
+Dialog DLL:      
 Target DLL:      Segger\JL2CM3.dll V2.99.40.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
 C:\Users\PETABREW001\Desktop\nRF52833_keil\nRF52833_keil.uvprojx
-Project File Date:  10/06/2023
+Project File Date:  10/10/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'nRF52833'
-compiling nrf_assert.c...
-compiling nrf_fprintf_format.c...
-compiling app_error.c...
-compiling app_util_platform.c...
-compiling nrf_fprintf.c...
-compiling app_error_handler_keil.c...
-compiling nrf_atomic.c...
-compiling nrf_ringbuf.c...
-compiling system_nrf52.c...
-compiling nrf_strerror.c...
-compiling nrf_balloc.c...
-compiling app_error_weak.c...
-compiling nrfx_atomic.c...
-compiling nrf_memobj.c...
+compiling main.c...
 linking...
-Program Size: Code=800 RO-data=568 RW-data=4 ZI-data=16484  
+Program Size: Code=4904 RO-data=608 RW-data=68 ZI-data=17108  
 FromELF: creating hex file...
 ".\Objects\nRF52833_keil.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
 
 Package Vendor: NordicSemiconductor
                 http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.44.1.pack
@@ -56,16 +49,19 @@ Package Vendor: NordicSemiconductor
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_nRF52833
+  C:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
   C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include
 
 <h2>Collection of Component Files used:</h2>
 
+   * Component: ARM::CMSIS:CORE:5.6.0
+
    * Component: NordicSemiconductor::Device:Startup:8.44.1
       Include file:  Device\Include\system_nrf.h
+      Source file:   Device\Source\arm\arm_startup_nrf52833.s
       Source file:   Device\Source\system_nrf52.c
       Include file:  Device\Include\system_nrf52833.h
-      Source file:   Device\Source\arm\arm_startup_nrf52833.s
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

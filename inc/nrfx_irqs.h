@@ -54,7 +54,7 @@
 #elif defined(NRF52833_XXAA)
     #include <nrfx_irqs_nrf52833.h>
 #elif defined(NRF52840_XXAA)
-    #include <soc/nrfx_irqs_nrf52840.h>
+    #include <nrfx_irqs_nrf52840.h>
 #elif defined(NRF9160_XXAA)
     #include <soc/nrfx_irqs_nrf9160.h>
 #else

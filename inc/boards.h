@@ -43,6 +43,7 @@
 #include "nrf_gpio.h"
 #include "nordic_common.h"
 
+  #include "pca10056.h"
 #if defined(BOARD_NRF6310)
   #include "nrf6310.h"
 #elif defined(BOARD_PCA10000)
@@ -85,8 +86,8 @@
   #include STRINGIFY(CUSTOM_BOARD_INC.h)
 #elif defined(BOARD_CUSTOM)
   #include "custom_board.h"
-#else
-#error "Board is not defined"
+//#else
+//#error "Board is not defined"
 
 #endif
 

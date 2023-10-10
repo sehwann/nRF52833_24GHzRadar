@@ -57,7 +57,7 @@
 #include <stdbool.h>
 #include "boards.h"
 
-#if !defined(BSP_DEFINES_ONLY) && !defined(BSP_SIMPLE)
+#if 0//!defined(BSP_DEFINES_ONLY) && !defined(BSP_SIMPLE)
 #include "app_button.h"
 
 #define BSP_BUTTON_ACTION_PUSH      (APP_BUTTON_PUSH)    /**< Represents pushing a button. See @ref bsp_button_action_t. */

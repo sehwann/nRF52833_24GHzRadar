@@ -450,18 +450,20 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
 interwork --depend=.\objects\arm_startup_nrf52833.d -o.\objects\arm_startup_nrf
-52833.o -I.\RTE\_nRF52833 -IC:\Users\PETABREW001\AppData\Local\Arm\Packs\Nordic
-Semiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include -IC:\Keil_v5\ARM\CMSIS
-\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 536" -
+52833.o -I.\RTE\_nRF52833 -IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CM
+SIS\5.9.0\CMSIS\Core\Include -IC:\Users\PETABREW001\AppData\Local\Arm\Packs\Nor
+dicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include --predefine="__EVAL
 
 
 
 ARM Macro Assembler    Page 8 
 
 
--predefine="_RTE_ SETA 1" --predefine="NRF52833_XXAA SETA 1" --predefine="_RTE_
- SETA 1" --list=.\listings\arm_startup_nrf52833.lst RTE\Device\nRF52833_xxAA\ar
-m_startup_nrf52833.s
+ SETA 1" --predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA 1" --
+predefine="NRF52833_XXAA SETA 1" --predefine="_RTE_ SETA 1" --cpreproc_opts=-DB
+OARD_PCA10100,-DBSP_DEFINES_ONLY,-DCONFIG_GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DN
+RF52833_XXAA,-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192 --list=.\listings\arm_start
+up_nrf52833.lst RTE\Device\nRF52833_xxAA\arm_startup_nrf52833.s
 
 
 

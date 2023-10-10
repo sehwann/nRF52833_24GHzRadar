@@ -15,6 +15,10 @@
 .\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h
 .\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h
 .\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h
+.\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_erratas.h
+.\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf51_erratas.h
 .\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52_erratas.h
+.\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf53_erratas.h
+.\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf91_erratas.h
 .\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\system_nrf52.h
 .\objects\system_nrf52.o: C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\system_nrf52_approtect.h
