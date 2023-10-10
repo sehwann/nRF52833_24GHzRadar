@@ -1,5 +1,6 @@
 --cpu=Cortex-M4.fp.sp
 ".\objects\main.o"
+".\objects\global.o"
 ".\objects\nrf_drv_uart.o"
 ".\objects\nrfx_atomic.o"
 ".\objects\nrfx_prs.o"

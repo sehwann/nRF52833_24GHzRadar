@@ -13,8 +13,17 @@
 #include "app_uart.h"
 #include "bsp.h"
 #include "nrf_uart.h"
-#endif
 
+
+
+
+void uart_error_handle(app_uart_evt_t * p_event);
+void GPIO_INIT(void);
+void UART_INIT(void);
+
+
+
+#endif
 
 
 /** @} */

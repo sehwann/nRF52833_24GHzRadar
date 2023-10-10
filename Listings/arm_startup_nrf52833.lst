@@ -460,10 +460,8 @@ ARM Macro Assembler    Page 8
 
 
  SETA 1" --predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA 1" --
-predefine="NRF52833_XXAA SETA 1" --predefine="_RTE_ SETA 1" --cpreproc_opts=-DB
-OARD_PCA10100,-DBSP_DEFINES_ONLY,-DCONFIG_GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DN
-RF52833_XXAA,-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192 --list=.\listings\arm_start
-up_nrf52833.lst RTE\Device\nRF52833_xxAA\arm_startup_nrf52833.s
+predefine="NRF52833_XXAA SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\a
+rm_startup_nrf52833.lst RTE\Device\nRF52833_xxAA\arm_startup_nrf52833.s
 
 
 

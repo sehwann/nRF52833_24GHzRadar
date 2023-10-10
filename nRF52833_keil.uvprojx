@@ -354,7 +354,7 @@
             <useXO>0</useXO>
             <ClangAsOpt>1</ClangAsOpt>
             <VariousControls>
-              <MiscControls> --cpreproc_opts=-DBOARD_PCA10100,-DBSP_DEFINES_ONLY,-DCONFIG_GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DNRF52833_XXAA,-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192</MiscControls>
+              <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
               <IncludePath></IncludePath>
@@ -392,6 +392,16 @@
               <FileName>sdk_config.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\inc\sdk_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>global.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Application\src\global.c</FilePath>
+            </File>
+            <File>
+              <FileName>global.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Application\inc\global.h</FilePath>
             </File>
           </Files>
         </Group>
