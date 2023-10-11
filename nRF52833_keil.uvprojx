@@ -305,8 +305,8 @@
               </OCR_RVCT9>
               <OCR_RVCT10>
                 <Type>0</Type>
-                <StartAddress>0x800000</StartAddress>
-                <Size>0x20000</Size>
+                <StartAddress>0x0</StartAddress>
+                <Size>0x0</Size>
               </OCR_RVCT10>
             </OnChipMemories>
             <RvctStartVector></RvctStartVector>
@@ -354,7 +354,7 @@
             <useXO>0</useXO>
             <ClangAsOpt>1</ClangAsOpt>
             <VariousControls>
-              <MiscControls></MiscControls>
+              <MiscControls> --cpreproc_opts=-DAPP_TIMER_V2,-DAPP_TIMER_V2_RTC1_ENABLED,-DBOARD_PCA10056,-DCONFIG_GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DNRF52840_XXAA,-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192</MiscControls>
               <Define></Define>
               <Undefine></Undefine>
               <IncludePath></IncludePath>
@@ -419,6 +419,11 @@
               <FilePath>.\src\nrfx_atomic.c</FilePath>
             </File>
             <File>
+              <FileName>nrfx_gpiote.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\nrfx_gpiote.c</FilePath>
+            </File>
+            <File>
               <FileName>nrfx_prs.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\nrfx_prs.c</FilePath>
@@ -432,6 +437,21 @@
               <FileName>nrfx_uarte.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\nrfx_uarte.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrf_drv_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\nrf_drv_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrfx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\nrfx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>nrfx_spim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\nrfx_spim.c</FilePath>
             </File>
           </Files>
         </Group>

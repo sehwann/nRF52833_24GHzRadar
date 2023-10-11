@@ -42,8 +42,8 @@
 #define NRFX_GPIOTE_H__
 
 #include <nrfx.h>
-#include <hal/nrf_gpiote.h>
-#include <hal/nrf_gpio.h>
+#include <nrf_gpiote.h>
+#include <nrf_gpio.h>
 
 #ifdef __cplusplus
 extern "C" {

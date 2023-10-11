@@ -42,7 +42,7 @@
 #define NRFX_SPIM_H__
 
 #include <nrfx.h>
-#include <hal/nrf_spim.h>
+#include <nrf_spim.h>
 
 #ifdef __cplusplus
 extern "C" {

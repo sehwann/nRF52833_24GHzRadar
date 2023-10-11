@@ -14,7 +14,7 @@
 #include "bsp.h"
 #include "nrf_uart.h"
 
-
+#include "nrf_drv_spi.h"
 
 
 void uart_error_handle(app_uart_evt_t * p_event);

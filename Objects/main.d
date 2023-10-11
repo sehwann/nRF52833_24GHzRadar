@@ -46,3 +46,8 @@
 .\objects\main.o: .\inc\boards.h
 .\objects\main.o: .\inc\pca10056.h
 .\objects\main.o: .\inc\nrf_uart.h
+.\objects\main.o: .\inc\nrf_drv_spi.h
+.\objects\main.o: .\inc\nrfx_spim.h
+.\objects\main.o: .\inc\nrf_spim.h
+.\objects\main.o: .\inc\nrfx_spi.h
+.\objects\main.o: .\inc\nrf_spi.h

@@ -52,8 +52,8 @@
 #endif
 
 #include <nrfx_spim.h>
-#include "prs/nrfx_prs.h"
-#include <hal/nrf_gpio.h>
+#include "nrfx_prs.h"
+#include <nrf_gpio.h>
 
 #define NRFX_LOG_MODULE SPIM
 #include <nrfx_log.h>
