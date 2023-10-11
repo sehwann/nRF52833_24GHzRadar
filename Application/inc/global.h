@@ -20,7 +20,7 @@
 void uart_error_handle(app_uart_evt_t * p_event);
 void GPIO_INIT(void);
 void UART_INIT(void);
-
+void SPI_INIT(void);
 
 
 #endif
