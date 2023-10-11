@@ -1,2 +1,5 @@
 # nRF52833_24GHzRadar
-test
+#### nRF52833_keil config <br>
+gpio<br>
+uart<br>
+spi<br>
