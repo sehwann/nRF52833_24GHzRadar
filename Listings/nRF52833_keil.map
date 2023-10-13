@@ -1433,15 +1433,15 @@ Memory Map of the image
     0x00000458   0x00000458   0x00000002   Code   RO         2428    .text               c_w.l(use_no_semi.o)
     0x0000045a   0x0000045a   0x00000000   Code   RO         2430    .text               c_w.l(indicate_semi.o)
     0x0000045a   0x0000045a   0x00000002   PAD
-    0x0000045c   0x0000045c   0x000000a4   Code   RO          446    i.GPIOTE_IRQHandler  nrfx_gpiote.o
-    0x00000500   0x00000500   0x00000010   Code   RO          191    i.GPIO_INIT         global.o
-    0x00000510   0x00000510   0x00000054   Code   RO         1275    i.SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler  nrfx_spim.o
-    0x00000564   0x00000564   0x0000003c   Code   RO          192    i.SPI_INIT          global.o
+    0x0000045c   0x0000045c   0x000000a4   Code   RO          449    i.GPIOTE_IRQHandler  nrfx_gpiote.o
+    0x00000500   0x00000500   0x00000010   Code   RO          194    i.GPIO_INIT         global.o
+    0x00000510   0x00000510   0x00000054   Code   RO         1278    i.SPIM0_SPIS0_TWIM0_TWIS0_SPI0_TWI0_IRQHandler  nrfx_spim.o
+    0x00000564   0x00000564   0x0000003c   Code   RO          195    i.SPI_INIT          global.o
     0x000005a0   0x000005a0   0x00000134   Code   RO         2240    i.SystemInit        system_nrf52.o
-    0x000006d4   0x000006d4   0x0000000c   Code   RO          799    i.UARTE0_UART0_IRQHandler  nrfx_prs.o
-    0x000006e0   0x000006e0   0x00000048   Code   RO          193    i.UART_INIT         global.o
-    0x00000728   0x00000728   0x00000030   Code   RO         1466    i.app_error_fault_handler  app_error_weak.o
-    0x00000758   0x00000758   0x00000016   Code   RO         1394    i.app_error_handler_bare  app_error.o
+    0x000006d4   0x000006d4   0x0000000c   Code   RO          802    i.UARTE0_UART0_IRQHandler  nrfx_prs.o
+    0x000006e0   0x000006e0   0x00000048   Code   RO          196    i.UART_INIT         global.o
+    0x00000728   0x00000728   0x00000030   Code   RO         1469    i.app_error_fault_handler  app_error_weak.o
+    0x00000758   0x00000758   0x00000016   Code   RO         1397    i.app_error_handler_bare  app_error.o
     0x0000076e   0x0000076e   0x00000016   Code   RO         1518    i.app_fifo_get      app_fifo.o
     0x00000784   0x00000784   0x00000020   Code   RO         1519    i.app_fifo_init     app_fifo.o
     0x000007a4   0x000007a4   0x0000001a   Code   RO         1521    i.app_fifo_put      app_fifo.o
@@ -1452,92 +1452,92 @@ Memory Map of the image
     0x000008bc   0x000008bc   0x00000004   Code   RO         1671    i.app_util_critical_region_exit  app_util_platform.o
     0x000008c0   0x000008c0   0x00000010   Code   RO         1672    i.app_util_disable_irq  app_util_platform.o
     0x000008d0   0x000008d0   0x00000014   Code   RO         1673    i.app_util_enable_irq  app_util_platform.o
-    0x000008e4   0x000008e4   0x00000076   Code   RO          850    i.apply_config      nrfx_uart.o
-    0x0000095a   0x0000095a   0x00000076   Code   RO         1046    i.apply_config      nrfx_uarte.o
-    0x000009d0   0x000009d0   0x00000010   Code   RO          449    i.channel_port_get  nrfx_gpiote.o
+    0x000008e4   0x000008e4   0x00000076   Code   RO          853    i.apply_config      nrfx_uart.o
+    0x0000095a   0x0000095a   0x00000076   Code   RO         1049    i.apply_config      nrfx_uarte.o
+    0x000009d0   0x000009d0   0x00000010   Code   RO          452    i.channel_port_get  nrfx_gpiote.o
     0x000009e0   0x000009e0   0x00000014   Code   RO         1524    i.fifo_get          app_fifo.o
     0x000009f4   0x000009f4   0x00000012   Code   RO         1525    i.fifo_put          app_fifo.o
     0x00000a06   0x00000a06   0x0000000e   Code   RO         2195    i.fputc             retarget.o
-    0x00000a14   0x00000a14   0x00000088   Code   RO         1047    i.interrupts_enable  nrfx_uarte.o
+    0x00000a14   0x00000a14   0x00000088   Code   RO         1050    i.interrupts_enable  nrfx_uarte.o
     0x00000a9c   0x00000a9c   0x00000058   Code   RO            4    i.main              main.o
-    0x00000af4   0x00000af4   0x00000010   Code   RO          450    i.nrf_bitmask_bit_is_set  nrfx_gpiote.o
-    0x00000b04   0x00000b04   0x00000070   Code   RO         1213    i.nrf_drv_spi_init  nrf_drv_spi.o
-    0x00000b74   0x00000b74   0x00000068   Code   RO          254    i.nrf_drv_uart_init  nrf_drv_uart.o
+    0x00000af4   0x00000af4   0x00000010   Code   RO          453    i.nrf_bitmask_bit_is_set  nrfx_gpiote.o
+    0x00000b04   0x00000b04   0x00000070   Code   RO         1216    i.nrf_drv_spi_init  nrf_drv_spi.o
+    0x00000b74   0x00000b74   0x00000068   Code   RO          257    i.nrf_drv_uart_init  nrf_drv_uart.o
     0x00000bdc   0x00000bdc   0x00000020   Code   RO         1598    i.nrf_drv_uart_rx   app_uart_fifo.o
     0x00000bfc   0x00000bfc   0x00000020   Code   RO         1599    i.nrf_drv_uart_tx   app_uart_fifo.o
-    0x00000c1c   0x00000c1c   0x00000032   Code   RO          851    i.nrf_gpio_cfg      nrfx_uart.o
-    0x00000c4e   0x00000c4e   0x00000032   Code   RO         1048    i.nrf_gpio_cfg      nrfx_uarte.o
-    0x00000c80   0x00000c80   0x00000032   Code   RO         1276    i.nrf_gpio_cfg      nrfx_spim.o
-    0x00000cb2   0x00000cb2   0x00000012   Code   RO          853    i.nrf_gpio_cfg_input  nrfx_uart.o
-    0x00000cc4   0x00000cc4   0x00000012   Code   RO         1050    i.nrf_gpio_cfg_input  nrfx_uarte.o
-    0x00000cd6   0x00000cd6   0x00000014   Code   RO          854    i.nrf_gpio_cfg_output  nrfx_uart.o
-    0x00000cea   0x00000cea   0x00000014   Code   RO         1051    i.nrf_gpio_cfg_output  nrfx_uarte.o
-    0x00000cfe   0x00000cfe   0x00000014   Code   RO         1277    i.nrf_gpio_cfg_output  nrfx_spim.o
-    0x00000d12   0x00000d12   0x00000030   Code   RO          453    i.nrf_gpio_cfg_sense_set  nrfx_gpiote.o
+    0x00000c1c   0x00000c1c   0x00000032   Code   RO          854    i.nrf_gpio_cfg      nrfx_uart.o
+    0x00000c4e   0x00000c4e   0x00000032   Code   RO         1051    i.nrf_gpio_cfg      nrfx_uarte.o
+    0x00000c80   0x00000c80   0x00000032   Code   RO         1279    i.nrf_gpio_cfg      nrfx_spim.o
+    0x00000cb2   0x00000cb2   0x00000012   Code   RO          856    i.nrf_gpio_cfg_input  nrfx_uart.o
+    0x00000cc4   0x00000cc4   0x00000012   Code   RO         1053    i.nrf_gpio_cfg_input  nrfx_uarte.o
+    0x00000cd6   0x00000cd6   0x00000014   Code   RO          857    i.nrf_gpio_cfg_output  nrfx_uart.o
+    0x00000cea   0x00000cea   0x00000014   Code   RO         1054    i.nrf_gpio_cfg_output  nrfx_uarte.o
+    0x00000cfe   0x00000cfe   0x00000014   Code   RO         1280    i.nrf_gpio_cfg_output  nrfx_spim.o
+    0x00000d12   0x00000d12   0x00000030   Code   RO          456    i.nrf_gpio_cfg_sense_set  nrfx_gpiote.o
     0x00000d42   0x00000d42   0x00000002   PAD
-    0x00000d44   0x00000d44   0x00000030   Code   RO          454    i.nrf_gpio_latches_read_and_clear  nrfx_gpiote.o
-    0x00000d74   0x00000d74   0x00000014   Code   RO         1278    i.nrf_gpio_pin_clear  nrfx_spim.o
-    0x00000d88   0x00000d88   0x0000001c   Code   RO          456    i.nrf_gpio_pin_port_decode  nrfx_gpiote.o
-    0x00000da4   0x00000da4   0x0000001c   Code   RO          855    i.nrf_gpio_pin_port_decode  nrfx_uart.o
-    0x00000dc0   0x00000dc0   0x0000001c   Code   RO         1052    i.nrf_gpio_pin_port_decode  nrfx_uarte.o
-    0x00000ddc   0x00000ddc   0x0000001c   Code   RO         1279    i.nrf_gpio_pin_port_decode  nrfx_spim.o
-    0x00000df8   0x00000df8   0x00000014   Code   RO          856    i.nrf_gpio_pin_set  nrfx_uart.o
-    0x00000e0c   0x00000e0c   0x00000014   Code   RO         1053    i.nrf_gpio_pin_set  nrfx_uarte.o
-    0x00000e20   0x00000e20   0x00000014   Code   RO         1280    i.nrf_gpio_pin_set  nrfx_spim.o
-    0x00000e34   0x00000e34   0x00000014   Code   RO          460    i.nrf_gpiote_event_clear  nrfx_gpiote.o
-    0x00000e48   0x00000e48   0x00000010   Code   RO          461    i.nrf_gpiote_event_is_set  nrfx_gpiote.o
-    0x00000e58   0x00000e58   0x0000000a   Code   RO         1281    i.nrf_spim_event_check  nrfx_spim.o
-    0x00000e62   0x00000e62   0x0000000a   Code   RO          857    i.nrf_uart_event_check  nrfx_uart.o
-    0x00000e6c   0x00000e6c   0x0000000c   Code   RO          858    i.nrf_uart_event_clear  nrfx_uart.o
-    0x00000e78   0x00000e78   0x0000000c   Code   RO          859    i.nrf_uart_int_enable_check  nrfx_uart.o
-    0x00000e84   0x00000e84   0x0000000a   Code   RO         1054    i.nrf_uarte_event_check  nrfx_uarte.o
-    0x00000e8e   0x00000e8e   0x0000000c   Code   RO         1055    i.nrf_uarte_event_clear  nrfx_uarte.o
-    0x00000e9a   0x00000e9a   0x00000010   Code   RO         1056    i.nrfx_is_in_ram    nrfx_uarte.o
-    0x00000eaa   0x00000eaa   0x00000010   Code   RO         1282    i.nrfx_is_in_ram    nrfx_spim.o
-    0x00000eba   0x00000eba   0x00000030   Code   RO          800    i.nrfx_prs_acquire  nrfx_prs.o
+    0x00000d44   0x00000d44   0x00000030   Code   RO          457    i.nrf_gpio_latches_read_and_clear  nrfx_gpiote.o
+    0x00000d74   0x00000d74   0x00000014   Code   RO         1281    i.nrf_gpio_pin_clear  nrfx_spim.o
+    0x00000d88   0x00000d88   0x0000001c   Code   RO          459    i.nrf_gpio_pin_port_decode  nrfx_gpiote.o
+    0x00000da4   0x00000da4   0x0000001c   Code   RO          858    i.nrf_gpio_pin_port_decode  nrfx_uart.o
+    0x00000dc0   0x00000dc0   0x0000001c   Code   RO         1055    i.nrf_gpio_pin_port_decode  nrfx_uarte.o
+    0x00000ddc   0x00000ddc   0x0000001c   Code   RO         1282    i.nrf_gpio_pin_port_decode  nrfx_spim.o
+    0x00000df8   0x00000df8   0x00000014   Code   RO          859    i.nrf_gpio_pin_set  nrfx_uart.o
+    0x00000e0c   0x00000e0c   0x00000014   Code   RO         1056    i.nrf_gpio_pin_set  nrfx_uarte.o
+    0x00000e20   0x00000e20   0x00000014   Code   RO         1283    i.nrf_gpio_pin_set  nrfx_spim.o
+    0x00000e34   0x00000e34   0x00000014   Code   RO          463    i.nrf_gpiote_event_clear  nrfx_gpiote.o
+    0x00000e48   0x00000e48   0x00000010   Code   RO          464    i.nrf_gpiote_event_is_set  nrfx_gpiote.o
+    0x00000e58   0x00000e58   0x0000000a   Code   RO         1284    i.nrf_spim_event_check  nrfx_spim.o
+    0x00000e62   0x00000e62   0x0000000a   Code   RO          860    i.nrf_uart_event_check  nrfx_uart.o
+    0x00000e6c   0x00000e6c   0x0000000c   Code   RO          861    i.nrf_uart_event_clear  nrfx_uart.o
+    0x00000e78   0x00000e78   0x0000000c   Code   RO          862    i.nrf_uart_int_enable_check  nrfx_uart.o
+    0x00000e84   0x00000e84   0x0000000a   Code   RO         1057    i.nrf_uarte_event_check  nrfx_uarte.o
+    0x00000e8e   0x00000e8e   0x0000000c   Code   RO         1058    i.nrf_uarte_event_clear  nrfx_uarte.o
+    0x00000e9a   0x00000e9a   0x00000010   Code   RO         1059    i.nrfx_is_in_ram    nrfx_uarte.o
+    0x00000eaa   0x00000eaa   0x00000010   Code   RO         1285    i.nrfx_is_in_ram    nrfx_spim.o
+    0x00000eba   0x00000eba   0x00000030   Code   RO          803    i.nrfx_prs_acquire  nrfx_prs.o
     0x00000eea   0x00000eea   0x00000002   PAD
-    0x00000eec   0x00000eec   0x0000016c   Code   RO         1285    i.nrfx_spim_init    nrfx_spim.o
-    0x00001058   0x00001058   0x00000064   Code   RO         1288    i.nrfx_spim_xfer    nrfx_spim.o
-    0x000010bc   0x000010bc   0x00000010   Code   RO          860    i.nrfx_uart_0_irq_handler  nrfx_uart.o
-    0x000010cc   0x000010cc   0x000000d4   Code   RO          862    i.nrfx_uart_init    nrfx_uart.o
-    0x000011a0   0x000011a0   0x000000ec   Code   RO          863    i.nrfx_uart_rx      nrfx_uart.o
-    0x0000128c   0x0000128c   0x000000a8   Code   RO          868    i.nrfx_uart_tx      nrfx_uart.o
-    0x00001334   0x00001334   0x00000020   Code   RO          870    i.nrfx_uart_tx_in_progress  nrfx_uart.o
-    0x00001354   0x00001354   0x00000010   Code   RO         1057    i.nrfx_uarte_0_irq_handler  nrfx_uarte.o
-    0x00001364   0x00001364   0x0000006c   Code   RO         1059    i.nrfx_uarte_init   nrfx_uarte.o
-    0x000013d0   0x000013d0   0x00000104   Code   RO         1060    i.nrfx_uarte_rx     nrfx_uarte.o
-    0x000014d4   0x000014d4   0x000000ac   Code   RO         1063    i.nrfx_uarte_tx     nrfx_uarte.o
-    0x00001580   0x00001580   0x0000001c   Code   RO         1065    i.nrfx_uarte_tx_in_progress  nrfx_uarte.o
-    0x0000159c   0x0000159c   0x000000d0   Code   RO          494    i.port_event_handle  nrfx_gpiote.o
-    0x0000166c   0x0000166c   0x00000010   Code   RO          495    i.port_handler_polarity_get  nrfx_gpiote.o
-    0x0000167c   0x0000167c   0x00000018   Code   RO          802    i.prs_box_get       nrfx_prs.o
-    0x00001694   0x00001694   0x00000032   Code   RO          872    i.rx_byte           nrfx_uart.o
-    0x000016c6   0x000016c6   0x00000016   Code   RO          873    i.rx_done_event     nrfx_uart.o
-    0x000016dc   0x000016dc   0x00000016   Code   RO         1067    i.rx_done_event     nrfx_uarte.o
-    0x000016f2   0x000016f2   0x00000020   Code   RO          874    i.rx_enable         nrfx_uart.o
-    0x00001712   0x00001712   0x00000002   Code   RO          194    i.spi_event_handler  global.o
-    0x00001714   0x00001714   0x00000038   Code   RO         1214    i.spim_evt_handler  nrf_drv_spi.o
-    0x0000174c   0x0000174c   0x000000bc   Code   RO         1289    i.spim_xfer         nrfx_spim.o
-    0x00001808   0x00001808   0x00000020   Code   RO          875    i.tx_byte           nrfx_uart.o
-    0x00001828   0x00001828   0x0000001a   Code   RO          876    i.tx_done_event     nrfx_uart.o
-    0x00001842   0x00001842   0x0000001a   Code   RO         1068    i.tx_done_event     nrfx_uarte.o
-    0x0000185c   0x0000185c   0x00000012   Code   RO          195    i.uart_error_handle  global.o
+    0x00000eec   0x00000eec   0x0000016c   Code   RO         1288    i.nrfx_spim_init    nrfx_spim.o
+    0x00001058   0x00001058   0x00000064   Code   RO         1291    i.nrfx_spim_xfer    nrfx_spim.o
+    0x000010bc   0x000010bc   0x00000010   Code   RO          863    i.nrfx_uart_0_irq_handler  nrfx_uart.o
+    0x000010cc   0x000010cc   0x000000d4   Code   RO          865    i.nrfx_uart_init    nrfx_uart.o
+    0x000011a0   0x000011a0   0x000000ec   Code   RO          866    i.nrfx_uart_rx      nrfx_uart.o
+    0x0000128c   0x0000128c   0x000000a8   Code   RO          871    i.nrfx_uart_tx      nrfx_uart.o
+    0x00001334   0x00001334   0x00000020   Code   RO          873    i.nrfx_uart_tx_in_progress  nrfx_uart.o
+    0x00001354   0x00001354   0x00000010   Code   RO         1060    i.nrfx_uarte_0_irq_handler  nrfx_uarte.o
+    0x00001364   0x00001364   0x0000006c   Code   RO         1062    i.nrfx_uarte_init   nrfx_uarte.o
+    0x000013d0   0x000013d0   0x00000104   Code   RO         1063    i.nrfx_uarte_rx     nrfx_uarte.o
+    0x000014d4   0x000014d4   0x000000ac   Code   RO         1066    i.nrfx_uarte_tx     nrfx_uarte.o
+    0x00001580   0x00001580   0x0000001c   Code   RO         1068    i.nrfx_uarte_tx_in_progress  nrfx_uarte.o
+    0x0000159c   0x0000159c   0x000000d0   Code   RO          497    i.port_event_handle  nrfx_gpiote.o
+    0x0000166c   0x0000166c   0x00000010   Code   RO          498    i.port_handler_polarity_get  nrfx_gpiote.o
+    0x0000167c   0x0000167c   0x00000018   Code   RO          805    i.prs_box_get       nrfx_prs.o
+    0x00001694   0x00001694   0x00000032   Code   RO          875    i.rx_byte           nrfx_uart.o
+    0x000016c6   0x000016c6   0x00000016   Code   RO          876    i.rx_done_event     nrfx_uart.o
+    0x000016dc   0x000016dc   0x00000016   Code   RO         1070    i.rx_done_event     nrfx_uarte.o
+    0x000016f2   0x000016f2   0x00000020   Code   RO          877    i.rx_enable         nrfx_uart.o
+    0x00001712   0x00001712   0x00000002   Code   RO          197    i.spi_event_handler  global.o
+    0x00001714   0x00001714   0x00000038   Code   RO         1217    i.spim_evt_handler  nrf_drv_spi.o
+    0x0000174c   0x0000174c   0x000000bc   Code   RO         1292    i.spim_xfer         nrfx_spim.o
+    0x00001808   0x00001808   0x00000020   Code   RO          878    i.tx_byte           nrfx_uart.o
+    0x00001828   0x00001828   0x0000001a   Code   RO          879    i.tx_done_event     nrfx_uart.o
+    0x00001842   0x00001842   0x0000001a   Code   RO         1071    i.tx_done_event     nrfx_uarte.o
+    0x0000185c   0x0000185c   0x00000012   Code   RO          198    i.uart_error_handle  global.o
     0x0000186e   0x0000186e   0x00000002   PAD
     0x00001870   0x00001870   0x000000a4   Code   RO         1600    i.uart_event_handler  app_uart_fifo.o
-    0x00001914   0x00001914   0x00000030   Code   RO          255    i.uart_evt_handler  nrf_drv_uart.o
-    0x00001944   0x00001944   0x0000012a   Code   RO          877    i.uart_irq_handler  nrfx_uart.o
+    0x00001914   0x00001914   0x00000030   Code   RO          258    i.uart_evt_handler  nrf_drv_uart.o
+    0x00001944   0x00001944   0x0000012a   Code   RO          880    i.uart_irq_handler  nrfx_uart.o
     0x00001a6e   0x00001a6e   0x00000002   PAD
-    0x00001a70   0x00001a70   0x00000030   Code   RO          256    i.uarte_evt_handler  nrf_drv_uart.o
-    0x00001aa0   0x00001aa0   0x00000112   Code   RO         1069    i.uarte_irq_handler  nrfx_uarte.o
+    0x00001a70   0x00001a70   0x00000030   Code   RO          259    i.uarte_evt_handler  nrf_drv_uart.o
+    0x00001aa0   0x00001aa0   0x00000112   Code   RO         1072    i.uarte_irq_handler  nrfx_uarte.o
     0x00001bb2   0x00001bb2   0x0000000a   Code   RO         2415    x$fpl$fpinit        fz_wm.l(fpinit.o)
     0x00001bbc   0x00001bbc   0x00000004   PAD
     0x00001bc0   0x00001bc0   0x00000018   Data   RO            5    .constdata          main.o
-    0x00001bd8   0x00001bd8   0x00000038   Data   RO          197    .constdata          global.o
-    0x00001c10   0x00001c10   0x00000008   Data   RO          497    .constdata          nrfx_gpiote.o
-    0x00001c18   0x00001c18   0x00000004   Data   RO          880    .constdata          nrfx_uart.o
-    0x00001c1c   0x00001c1c   0x00000004   Data   RO         1072    .constdata          nrfx_uarte.o
-    0x00001c20   0x00001c20   0x00000010   Data   RO         1216    .constdata          nrf_drv_spi.o
-    0x00001c30   0x00001c30   0x00000004   Data   RO         1292    .constdata          nrfx_spim.o
+    0x00001bd8   0x00001bd8   0x00000038   Data   RO          200    .constdata          global.o
+    0x00001c10   0x00001c10   0x00000008   Data   RO          500    .constdata          nrfx_gpiote.o
+    0x00001c18   0x00001c18   0x00000004   Data   RO          883    .constdata          nrfx_uart.o
+    0x00001c1c   0x00001c1c   0x00000004   Data   RO         1075    .constdata          nrfx_uarte.o
+    0x00001c20   0x00001c20   0x00000010   Data   RO         1219    .constdata          nrf_drv_spi.o
+    0x00001c30   0x00001c30   0x00000004   Data   RO         1295    .constdata          nrfx_spim.o
     0x00001c34   0x00001c34   0x00000020   Data   RO         1602    .constdata          app_uart_fifo.o
     0x00001c54   0x00001c54   0x00000020   Data   RO         2485    Region$$Table       anon$$obj.o
 
@@ -1548,18 +1548,18 @@ Memory Map of the image
 
     0x20000000   0x00001c74   0x00000005   Data   RW            6    .data               main.o
     0x20000005   0x00001c79   0x00000003   PAD
-    0x20000008   0x00001c7c   0x00000014   Data   RW          257    .data               nrf_drv_uart.o
-    0x2000001c   0x00001c90   0x00000008   Data   RW          804    .data               nrfx_prs.o
+    0x20000008   0x00001c7c   0x00000014   Data   RW          260    .data               nrf_drv_uart.o
+    0x2000001c   0x00001c90   0x00000008   Data   RW          807    .data               nrfx_prs.o
     0x20000024   0x00001c98   0x0000001c   Data   RW         1603    .data               app_uart_fifo.o
     0x20000040   0x00001cb4   0x00000004   Data   RW         1676    .data               app_util_platform.o
     0x20000044   0x00001cb8   0x00000004   Data   RW         2196    .data               retarget.o
     0x20000048   0x00001cbc   0x00000004   Data   RW         2243    .data               system_nrf52.o
-    0x2000004c        -       0x00000200   Zero   RW          196    .bss                global.o
-    0x2000024c        -       0x00000068   Zero   RW          496    .bss                nrfx_gpiote.o
-    0x200002b4        -       0x0000002c   Zero   RW          878    .bss                nrfx_uart.o
-    0x200002e0        -       0x00000024   Zero   RW         1070    .bss                nrfx_uarte.o
-    0x20000304        -       0x00000020   Zero   RW         1215    .bss                nrf_drv_spi.o
-    0x20000324        -       0x00000024   Zero   RW         1290    .bss                nrfx_spim.o
+    0x2000004c        -       0x00000200   Zero   RW          199    .bss                global.o
+    0x2000024c        -       0x00000068   Zero   RW          499    .bss                nrfx_gpiote.o
+    0x200002b4        -       0x0000002c   Zero   RW          881    .bss                nrfx_uart.o
+    0x200002e0        -       0x00000024   Zero   RW         1073    .bss                nrfx_uarte.o
+    0x20000304        -       0x00000020   Zero   RW         1218    .bss                nrf_drv_spi.o
+    0x20000324        -       0x00000024   Zero   RW         1293    .bss                nrfx_spim.o
     0x20000348        -       0x00000020   Zero   RW         1601    .bss                app_uart_fifo.o
     0x20000368        -       0x00000060   Zero   RW         2357    .bss                c_w.l(libspace.o)
     0x200003c8        -       0x00002000   Zero   RW         2230    HEAP                arm_startup_nrf52833.o

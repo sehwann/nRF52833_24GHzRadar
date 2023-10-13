@@ -536,6 +536,9 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>nRF_Log</GroupName>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
         <Group>

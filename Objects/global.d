@@ -3,7 +3,9 @@
 .\objects\global.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\global.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\global.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\global.o: .\inc\nrf_gpio.h
+.\objects\global.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\global.o: .\inc\nordic_common.h
+.\objects\global.o: .\inc\nrf_delay.h
 .\objects\global.o: .\inc\nrfx.h
 .\objects\global.o: .\inc\nrfx_config.h
 .\objects\global.o: .\inc\sdk_config.h
@@ -29,7 +31,6 @@
 .\objects\global.o: .\inc\nrfx_irqs_nrf52833.h
 .\objects\global.o: .\inc\nrf_assert.h
 .\objects\global.o: .\inc\app_util.h
-.\objects\global.o: .\inc\nordic_common.h
 .\objects\global.o: .\inc\app_util_platform.h
 .\objects\global.o: .\inc\app_error.h
 .\objects\global.o: .\inc\sdk_errors.h
@@ -40,11 +41,11 @@
 .\objects\global.o: .\inc\nrfx.h
 .\objects\global.o: .\inc\sdk_resources.h
 .\objects\global.o: .\inc\nrfx_errors.h
-.\objects\global.o: .\inc\nrf_delay.h
-.\objects\global.o: .\inc\app_uart.h
 .\objects\global.o: .\inc\bsp.h
 .\objects\global.o: .\inc\boards.h
+.\objects\global.o: .\inc\nrf_gpio.h
 .\objects\global.o: .\inc\pca10056.h
+.\objects\global.o: .\inc\app_uart.h
 .\objects\global.o: .\inc\nrf_uart.h
 .\objects\global.o: .\inc\nrf_drv_spi.h
 .\objects\global.o: .\inc\nrfx_spim.h

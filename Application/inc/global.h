@@ -3,15 +3,17 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
-
-#include "nrf_gpio.h"
+#include <string.h>
 
 #include "nordic_common.h"
 #include "nrf_delay.h"
+#include "bsp.h"
 
+//#include "nrf_log.h"
+
+#include "nrf_gpio.h"
 
 #include "app_uart.h"
-#include "bsp.h"
 #include "nrf_uart.h"
 
 #include "nrf_drv_spi.h"

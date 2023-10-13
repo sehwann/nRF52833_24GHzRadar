@@ -30,6 +30,9 @@ int main(void)
     {
 		// test spi
 		nrf_drv_spi_transfer(&spi, m_tx_buf, m_length, m_rx_buf, m_length);
+
+		//NRF_LOG_HEXDUMP_INFO(m_rx_buf, strlen((const char *)m_rx_buf));
+		
 		nrf_delay_ms(500);
 #if 0		
         uint8_t cr;
