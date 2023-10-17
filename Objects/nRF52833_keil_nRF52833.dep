@@ -1,6 +1,6 @@
 Dependencies for Project 'nRF52833_keil', Target 'nRF52833': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (.\Application\src\main.c)(0x65277FCC)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\Application\src\main.c)(0x652E466E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Application\inc\global.h)(0x65277FC8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
@@ -10,7 +10,7 @@ I (.\inc\nordic_common.h)(0x61210B93)
 I (.\inc\nrf_delay.h)(0x61210B93)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf.h)(0x61971DD0)
@@ -28,7 +28,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -48,13 +48,13 @@ I (.\inc\nrf_gpio.h)(0x61210B97)
 I (.\inc\pca10056.h)(0x651F7858)
 I (.\inc\app_uart.h)(0x61210B93)
 I (.\inc\nrf_uart.h)(0x61210B97)
-I (.\inc\nrf_drv_spi.h)(0x61210B97)
+I (.\inc\nrf_drv_spi.h)(0x652E408E)
 I (.\inc\nrfx_spim.h)(0x652657F8)
 I (.\inc\nrf_spim.h)(0x61210B97)
 I (.\inc\nrfx_spi.h)(0x65265223)
 I (.\inc\nrf_spi.h)(0x61210B97)
-F (.\inc\sdk_config.h)(0x65266574)()
-F (.\Application\src\global.c)(0x65266499)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\global.o --omf_browse .\objects\global.crf --depend .\objects\global.d)
+F (.\inc\sdk_config.h)(0x652E4617)()
+F (.\Application\src\global.c)(0x652E4632)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\global.o --omf_browse .\objects\global.crf --depend .\objects\global.d)
 I (.\Application\inc\global.h)(0x65277FC8)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
@@ -64,7 +64,7 @@ I (.\inc\nordic_common.h)(0x61210B93)
 I (.\inc\nrf_delay.h)(0x61210B93)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf.h)(0x61971DD0)
@@ -82,7 +82,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -102,7 +102,7 @@ I (.\inc\nrf_gpio.h)(0x61210B97)
 I (.\inc\pca10056.h)(0x651F7858)
 I (.\inc\app_uart.h)(0x61210B93)
 I (.\inc\nrf_uart.h)(0x61210B97)
-I (.\inc\nrf_drv_spi.h)(0x61210B97)
+I (.\inc\nrf_drv_spi.h)(0x652E408E)
 I (.\inc\nrfx_spim.h)(0x652657F8)
 I (.\inc\nrf_spim.h)(0x61210B97)
 I (.\inc\nrfx_spi.h)(0x65265223)
@@ -112,7 +112,7 @@ F (.\src\nrf_drv_uart.c)(0x6524A7DB)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g 
 I (.\inc\nrf_drv_uart.h)(0x61210B97)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -132,7 +132,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -156,7 +156,7 @@ F (.\src\nrfx_atomic.c)(0x6524A7E3)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -
 I (.\inc\nrfx_atomic.h)(0x61210B98)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -176,7 +176,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -195,7 +195,7 @@ I (.\inc\nrfx_atomic_internal.h)(0x61210B98)
 F (.\src\nrfx_gpiote.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrfx_gpiote.o --omf_browse .\objects\nrfx_gpiote.crf --depend .\objects\nrfx_gpiote.d)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -215,7 +215,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -248,7 +248,7 @@ I (.\inc\nrf_log_types.h)(0x61210B93)
 F (.\src\nrfx_prs.c)(0x6524A7EB)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrfx_prs.o --omf_browse .\objects\nrfx_prs.crf --depend .\objects\nrfx_prs.d)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -268,7 +268,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -298,7 +298,7 @@ I (.\inc\nrf_log_types.h)(0x61210B93)
 F (.\src\nrfx_uart.c)(0x6524A86C)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrfx_uart.o --omf_browse .\objects\nrfx_uart.crf --depend .\objects\nrfx_uart.d)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -318,7 +318,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -351,7 +351,7 @@ I (.\inc\nrf_log_types.h)(0x61210B93)
 F (.\src\nrfx_uarte.c)(0x6524A861)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrfx_uarte.o --omf_browse .\objects\nrfx_uarte.crf --depend .\objects\nrfx_uarte.d)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -371,7 +371,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -402,10 +402,10 @@ I (.\inc\nrf_log_internal.h)(0x61210B93)
 I (.\inc\nrf_log_instance.h)(0x61210B93)
 I (.\inc\nrf_log_types.h)(0x61210B93)
 F (.\src\nrf_drv_spi.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrf_drv_spi.o --omf_browse .\objects\nrf_drv_spi.crf --depend .\objects\nrf_drv_spi.d)
-I (.\inc\nrf_drv_spi.h)(0x61210B97)
+I (.\inc\nrf_drv_spi.h)(0x652E408E)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -425,7 +425,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -448,7 +448,7 @@ I (.\inc\nrf_spi.h)(0x61210B97)
 F (.\src\nrfx_spi.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrfx_spi.o --omf_browse .\objects\nrfx_spi.crf --depend .\objects\nrfx_spi.d)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -468,7 +468,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -484,10 +484,10 @@ I (.\inc\nrfx_coredep.h)(0x61210B98)
 I (.\inc\nrfx_atomic.h)(0x61210B98)
 I (.\inc\sdk_resources.h)(0x61210B93)
 I (.\inc\nrfx_errors.h)(0x61210B97)
-F (.\src\nrfx_spim.c)(0x6526547E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrfx_spim.o --omf_browse .\objects\nrfx_spim.crf --depend .\objects\nrfx_spim.d)
+F (.\src\nrfx_spim.c)(0x652DF418)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\inc -I .\Application\inc --reduce_paths-I.\RTE\_nRF52833-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DNRF52833_XXAA -D_RTE_-o .\objects\nrfx_spim.o --omf_browse .\objects\nrfx_spim.crf --depend .\objects\nrfx_spim.d)
 I (.\inc\nrfx.h)(0x651F72E3)
 I (.\inc\nrfx_config.h)(0x61210B97)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -507,7 +507,7 @@ I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFa
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrf_assert.h)(0x61210B93)
@@ -563,7 +563,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -611,7 +611,7 @@ I (.\inc\app_error_weak.h)(0x61210B93)
 I (.\inc\nrf_log.h)(0x61210B93)
 I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\sdk_os.h)(0x61210B93)
 I (.\inc\app_util.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025156E)
@@ -631,7 +631,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -659,7 +659,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -694,7 +694,7 @@ I (.\inc\nrfx_common.h)(0x61210B97)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52833_peripherals.h)(0x61971DD0)
 I (.\inc\nrfx_glue.h)(0x651F7307)
-I (.\inc\apply_old_config.h)(0x61210B97)
+I (.\inc\apply_old_config.h)(0x652E4286)
 I (.\inc\nrfx_irqs.h)(0x65249C70)
 I (.\inc\nrfx_irqs_nrf52833.h)(0x61210B98)
 I (.\inc\nrfx_coredep.h)(0x61210B98)
@@ -756,7 +756,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -783,7 +783,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -819,7 +819,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -848,7 +848,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -879,7 +879,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60251564)
 I (.\inc\sdk_errors.h)(0x61210B93)
 I (.\inc\nrf_error.h)(0x61210B93)
 I (.\inc\nrf_balloc.h)(0x61210B93)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\app_util_platform.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf.h)(0x61971DD0)
@@ -916,7 +916,7 @@ I (.\inc\nrf_atomic.h)(0x61210B93)
 I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -946,7 +946,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)
@@ -973,7 +973,7 @@ I (.\inc\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025156E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025156C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025156E)
-I (.\inc\sdk_config.h)(0x65266574)
+I (.\inc\sdk_config.h)(0x652E4617)
 I (.\inc\nordic_common.h)(0x61210B93)
 I (C:\Users\PETABREW001\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61971DD0)
 I (.\inc\sdk_os.h)(0x61210B93)

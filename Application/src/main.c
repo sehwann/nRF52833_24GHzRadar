@@ -2,9 +2,10 @@
 #include "global.h"
 
 
-#define SPI_INSTANCE  0 /**< SPI instance index. */
-static const nrf_drv_spi_t spi = NRF_DRV_SPI_INSTANCE(SPI_INSTANCE);  /**< SPI instance. */
-
+#define SPI_INSTANCE_0  0 /**< SPI0 instance index. */
+static const nrf_drv_spi_t spi0 = NRF_DRV_SPI_INSTANCE(SPI_INSTANCE_0);  /**< SPI0 instance. */
+#define SPI_INSTANCE_1  1 /**< SPI1 instance index. */
+static const nrf_drv_spi_t spi1 = NRF_DRV_SPI_INSTANCE(SPI_INSTANCE_1);  /**< SPI1 instance. */
 
 #define TEST_STRING "1"
 static uint8_t       m_tx_buf[] = TEST_STRING;           /**< SPI_TX buffer. */
@@ -28,9 +29,12 @@ int main(void)
 	
     while(1)
     {
-		// test spi
-		nrf_drv_spi_transfer(&spi, m_tx_buf, m_length, m_rx_buf, m_length);
-
+		// test spi0
+		nrf_drv_spi_transfer(&spi0, m_tx_buf, m_length, m_rx_buf, m_length);
+		// test spi1
+		nrf_drv_spi_transfer(&spi1, m_tx_buf, m_length, m_rx_buf, m_length);
+		
+		
 		//NRF_LOG_HEXDUMP_INFO(m_rx_buf, strlen((const char *)m_rx_buf));
 		
 		nrf_delay_ms(500);

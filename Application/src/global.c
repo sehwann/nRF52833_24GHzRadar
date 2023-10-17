@@ -5,8 +5,11 @@
 #define UART_TX_BUF_SIZE 256                         /**< UART TX buffer size. */
 #define UART_RX_BUF_SIZE 256                         /**< UART RX buffer size. */
 
-#define SPI_INSTANCE  0 /**< SPI instance index. */
-static const nrf_drv_spi_t spi = NRF_DRV_SPI_INSTANCE(SPI_INSTANCE);  /**< SPI instance. */
+#define SPI_INSTANCE_0  0 /**< SPI0 instance index. */
+static const nrf_drv_spi_t spi0 = NRF_DRV_SPI_INSTANCE(SPI_INSTANCE_0);  /**< SPI0 instance. */
+#define SPI_INSTANCE_1  1 /**< SPI1 instance index. */
+static const nrf_drv_spi_t spi1 = NRF_DRV_SPI_INSTANCE(SPI_INSTANCE_1);  /**< SPI1 instance. */
+
 
 void spi_event_handler(nrf_drv_spi_evt_t const * p_event,
                        void *                    p_context)
@@ -16,12 +19,19 @@ void spi_event_handler(nrf_drv_spi_evt_t const * p_event,
 
 void SPI_INIT(void)
 {
-	nrf_drv_spi_config_t spi_config = NRF_DRV_SPI_DEFAULT_CONFIG;
-    spi_config.ss_pin   = SPI_SS_PIN;
-    spi_config.miso_pin = SPI_MISO_PIN;
-    spi_config.mosi_pin = SPI_MOSI_PIN;
-    spi_config.sck_pin  = SPI_SCK_PIN;
-	nrf_drv_spi_init(&spi, &spi_config, spi_event_handler, NULL);
+	nrf_drv_spi_config_t spi0_config = NRF_DRV_SPI_DEFAULT_CONFIG;
+    spi0_config.ss_pin   = SPI0_SS_PIN;
+    spi0_config.miso_pin = SPI0_MISO_PIN;
+    spi0_config.mosi_pin = SPI0_MOSI_PIN;
+    spi0_config.sck_pin  = SPI0_SCK_PIN;
+	nrf_drv_spi_init(&spi0, &spi0_config, spi_event_handler, NULL);
+	
+	nrf_drv_spi_config_t spi1_config = NRF_DRV_SPI_DEFAULT_CONFIG;
+    spi1_config.ss_pin   = SPI1_SS_PIN;
+    spi1_config.miso_pin = SPI1_MISO_PIN;
+    spi1_config.mosi_pin = SPI1_MOSI_PIN;
+    spi1_config.sck_pin  = SPI1_SCK_PIN;
+	nrf_drv_spi_init(&spi1, &spi1_config, spi_event_handler, NULL);
 }
 
 
